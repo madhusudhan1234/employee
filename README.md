@@ -8,7 +8,7 @@ The main purpose of developing this application is that to understand database c
 
 Database Design of This application
 ------------------------------------
-![alt tag](https://github.com/madhusudhan1234/employee/grails-app/assets/images/employeedb.png)
+![alt tag](https://github.com/madhusudhan1234/employee/blob/master/grails-app/assets/images/employeedb.png)
 
 
 How to Run on Your Computer
