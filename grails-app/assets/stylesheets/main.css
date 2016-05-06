@@ -242,14 +242,14 @@ label {
     display: inline-block;
     margin: 0 0.25em 0 0;
 }
-
+/*
 input, select, textarea {
     background-color: #fcfcfc;
     border: 1px solid #cccccc;
     font-size: 1em;
     padding: 0.2em 0.4em;
 }
-
+*/
 select {
     padding: 0.2em 0.2em 0.2em 0;
 }
@@ -511,10 +511,13 @@ th:hover, tr:hover {
     color: #444444;
     text-decoration: underline;
 }
+.btn{
+    border-radius: 0px;
 
+}
 /* ACTION BUTTONS */
 
-.buttons {
+/*.buttons {
     background-color: #efefef;
     overflow: hidden;
     padding: 0.3em;
@@ -552,7 +555,7 @@ th:hover, tr:hover {
     -webkit-box-shadow: none;
     box-shadow: none;
 }
-
+*/
 .no-borderradius .buttons input:hover, .no-borderradius .buttons input:focus,
 .no-borderradius .buttons a:hover, .no-borderradius .buttons a:focus {
     background-color: transparent;
@@ -560,11 +563,11 @@ th:hover, tr:hover {
     text-decoration: underline;
 }
 
-.buttons .delete, .buttons .edit, .buttons .save {
+/*.buttons .delete, .buttons .edit, .buttons .save {
     background-position: 0.7em center;
     background-repeat: no-repeat;
     text-indent: 25px;
-}
+}*/
 
 .buttons .delete {
     background-image: url(../images/skin/database_delete.png);
@@ -574,10 +577,10 @@ th:hover, tr:hover {
     background-image: url(../images/skin/database_edit.png);
 }
 
-.buttons .save {
+/*.buttons .save {
     background-image: url(../images/skin/database_save.png);
 }
-
+*/
 a.skip {
     position: absolute;
     left: -9999px;

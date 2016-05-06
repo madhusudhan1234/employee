@@ -6,13 +6,13 @@ class Employee {
     Integer age
     Double salary
     String address
-    Integer phone_id
+
+    static hasMany = [departments: Department]
 
     static constraints = {
     	employeeName(blank: false)
         age(blank: false)
         salary(blank: false)
         address(blank: false)
-        phone_id(blank: false)
     }
 }

@@ -63,13 +63,13 @@
             </p>-->
 
             <div id="controllers" role="navigation">
-                <ul>
-                    <!-- <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
+                <!--<ul>
+                    <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
                         <li class="controller">
                             <g:link controller="${c.logicalPropertyName}">${c.fullName}</g:link>
                         </li>
-                    </g:each> -->
-                </ul>
+                    </g:each> 
+                </ul>-->
                 
         <div class="container">
             <div class="row boxes">        
@@ -110,7 +110,7 @@
                 </div>    
                 <div class="col-lg-4">
                     <div class="box ">
-                        <a href="http://localhost:8080/userImage/index">User Image</a>
+                        <a href="http://localhost:8080/skill/index">Skills</a>
                         <div class="clearfix"></div>
                         <asset:image src="image.png"/>
                     </div>
@@ -118,7 +118,14 @@
 
                 </div>   
             </div>
+
+            <div class="text-center">
+                <a href="http://localhost:8080/showAll/index">
+                    <h1>View Profile Summary</h1>
+                </a>
+            </div>
         </div>
+
         </div>
         </section>
     </div>

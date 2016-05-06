@@ -2,11 +2,11 @@ package employee
 
 class Department {
 
-	Integer dep_id
 	String dep_name
 
+	 static belongsTo = [employee: Employee] 
+
     static constraints = {
-    	dep_id(blank: false)
     	dep_name(blank: false)
     }
 }

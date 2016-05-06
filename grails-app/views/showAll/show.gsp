@@ -72,60 +72,8 @@
                 </ul>-->
                 
         <div class="container">
-            <div class="row boxes">        
-                <div class="col-lg-4">
-                    <div class="box">
-                        <a href="http://localhost:8080/department/index">Department</a>  
-                        <div class="clearfix"></div>
-                        <asset:image src="department.png"/>
-                    </div>
-                </div>    
-                <div class="col-lg-4">
-                    <div class="box">
-                        <a href="http://localhost:8080/emailAddress/index">Email </a>
-                        <div class="clearfix"></div>
-                        <asset:image src="email.png"/>
-                    </div>
-                </div>    
-                <div class="col-lg-4">
-                    <div class="box">
-                        <a href="http://localhost:8080/employee/index">Employee</a>
-                        <div class="clearfix"></div>
-                        <asset:image src="employee.png"/>
-                    </div>
-                </div>
-                <div class="col-lg-4">    
-                    <div class="box">
-                        <a href="http://localhost:8080/experience/index">Experience</a>
-                        <div class="clearfix"></div>
-                        <asset:image src="experience.png"/>
-                    </div>
-                </div>
-                <div class="col-lg-4">    
-                    <div class="box ">
-                        <a href="http://localhost:8080/phoneNumber/index">Phone</a>
-                        <div class="clearfix"></div>
-                        <asset:image src="phone.png"/>
-                    </div>
-                </div>    
-                <div class="col-lg-4">
-                    <div class="box ">
-                        <a href="http://localhost:8080/skill/index">Skills</a>
-                        <div class="clearfix"></div>
-                        <asset:image src="image.png"/>
-                    </div>
-                </div>    
-
-                </div>   
-            </div>
-
-            <div class="text-center">
-                <a href="http://localhost:8080/showAll/index">
-                    <h1>View Profile Summary</h1>
-                </a>
-            </div>
+            Here is all the Profile Summary can get
         </div>
-
         </div>
         </section>
     </div>

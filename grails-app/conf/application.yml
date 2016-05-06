@@ -1,4 +1,6 @@
 ---
+server:
+    'context-path': ''
 hibernate:
     cache:
         queries: false
@@ -19,7 +21,7 @@ environments:
             driverClassName: com.mysql.jdbc.Driver
             dialect: org.hibernate.dialect.MySQL5InnoDBDialect
             dbCreate: create-drop
-            url: jdbc:mysql://localhost/employee
+            url: jdbc:mysql://localhost/employee_prod
             username: root
             password: admin    
     test:
@@ -27,7 +29,7 @@ environments:
             driverClassName: com.mysql.jdbc.Driver
             dialect: org.hibernate.dialect.MySQL5InnoDBDialect
             dbCreate: update
-            url: jdbc:mysql://localhost/employee
+            url: jdbc:mysql://localhost/employee_test
             username: root
             password: admin    
     production:
@@ -35,7 +37,7 @@ environments:
             driverClassName: com.mysql.jdbc.Driver
             dialect: org.hibernate.dialect.MySQL5InnoDBDialect
             dbCreate: update
-            url: jdbc:mysql://localhost/employee
+            url: jdbc:mysql://localhost/employee_prod
             username: root
             password: admin
 ---
