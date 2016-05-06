@@ -3,7 +3,7 @@ Employee Management System
 
 About This Application
 ----------------------
-The main purpose of developing this application is that to understand database concept and how we can connect and working with database using MVC application. For this i am using Grails Framework, This application simply used for CRUD of employee records. 
+The main purpose of developing this application is that to understand database concept and how we can connect and working with database using MVC application. For this i am using Grails Framework For the application development and Mysql Database For the Storage of data, This application simply used for CRUD of employee records. 
 
 
 Database Design of This application
