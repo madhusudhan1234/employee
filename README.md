@@ -1,10 +1,18 @@
 Employee Management System
 ============================
 
-Simple CRUD application for college mini Project for Advance Database Management System
-----------------------------------------------------------------------------------------
+About This Application
+----------------------
+The main purpose of developing this application is that to understand database concept and how we can connect and working with database using MVC application. For this i am using Grails Framework, This application simply used for CRUD of employee records. 
 
-**How to Run on Your Computer **
+
+Database Design of This application
+------------------------------------
+![alt tag](https://github.com/madhusudhan1234/employee/grails-app/assets/images/employeedb.png)
+
+
+How to Run on Your Computer
+-----------------------------
 
 - At First Download the grails zip file By go to this link [https://grails.org/download.html]
 - Then Unzip that file and set the grails using environment variable 
